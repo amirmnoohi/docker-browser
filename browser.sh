@@ -30,7 +30,7 @@ install_chromium() {
             -e TZ=Etc/UTC \
             -e CUSTOM_USER=$USERNAME \
             -e PASSWORD=$PASSWORD \
-            -e CHROME_CLI=https://www.youtube.com/@IR_TECH/ `#optional` \
+            -e CHROME_CLI=https://highhost.org `#optional` \
             -p 3000:3000 \
             -p 3001:3001 \
             -v /root/chromium/config:/config \
